@@ -8,7 +8,9 @@ public class Practice {
     @BeforeAll
     static void configAll(){
         Configuration.browserSize = "1920x1080";
+        Configuration.holdBrowserOpen = true;
         }
+
         @Test
         void training1(){
         open("https://www.google.com/");
